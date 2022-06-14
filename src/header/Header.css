@@ -1,0 +1,35 @@
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.site-navigation {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+.site-menu {
+  opacity: 0;
+  transform: translateX(4em);
+  pointer-events: none;
+  transition: opacity 0.5s, transform 0.5s;
+}
+.site-menu.open {
+  opacity: 1;
+  transform: translateX(0);
+  pointer-events: auto;
+}
+.site-menu ul {
+  display: flex;
+  gap: 1em;
+  list-style: none;
+}
+.site-menu a {
+  text-decoration: none;
+  color: var(--color-accent);
+  padding: 0.5em;
+}
+.burger-menu {
+  padding: 0.5em;
+}

@@ -8,7 +8,7 @@
   background-color: var(--color-primary);
 }
 .app-main {
-  background-color: var(--color-accent);
+  background-color: white;
 }
 .app-footer {
   background-color: var(--color-primary);
@@ -17,6 +17,6 @@
 .app-main-inner-wrapper,
 .app-footer-inner-wrapper {
   max-width: 1200px;
-  border: 1px solid red;
   margin-inline: auto;
+  height: 100%;
 }

@@ -1,11 +1,15 @@
 import { Link } from "react-router-dom";
+import { useState } from "react";
+import classnames from "classnames";
+import "./Header.css";
 
 const Header = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <div className="site-header">
       <div className="site-logo"></div>
       <div className="site-navigation">
-        <nav className="site-menu">
+        <nav className={classnames("site-menu", { open: isMenuOpen })}>
           <ul>
             <li>
               <Link to="/">Home</Link>
@@ -21,7 +25,12 @@ const Header = () => {
             </li>
           </ul>
         </nav>
-        <button className="burger-menu"></button>
+        <button
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
+          className="burger-menu"
+        >
+          menu
+        </button>
       </div>
     </div>
   );
