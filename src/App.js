@@ -1,5 +1,6 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
+import Header from "./header/Header";
 import Home from "./home/Home";
 import About from "./about/About";
 import Projects from "./projects/Projects";
@@ -9,7 +10,9 @@ const App = () => {
   return (
     <div className="app">
       <header className="app-header">
-        <div className="app-header-inner-wrapper"></div>
+        <div className="app-header-inner-wrapper">
+          <Header />
+        </div>
       </header>
       <main className="app-main">
         <div className="app-main-inner-wrapper">
