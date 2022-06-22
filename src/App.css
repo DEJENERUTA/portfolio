@@ -12,7 +12,28 @@
 }
 .app-footer {
   background-color: var(--color-primary);
+  padding: 2em 0;
 }
+.app-footer-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em;
+  border-top: 2px solid #ffff00;
+}
+.app-footer-links a {
+  color: #000000;
+  text-decoration: none;
+  background-color: #ffffff;
+  padding: 1em;
+  border-radius: 8px;
+  border: 2px solid #000000;
+}
+.app-footer-links a:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
 .app-header-inner-wrapper,
 .app-main-inner-wrapper,
 .app-footer-inner-wrapper {

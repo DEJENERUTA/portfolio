@@ -25,7 +25,14 @@ const App = () => {
         </div>
       </main>
       <footer className="app-footer">
-        <div className="app-footer-inner-wrapper"></div>
+        <div className="app-footer-inner-wrapper">
+          <div className="app-footer-links">
+            <a href="#">Twitter</a>
+            <a href="#">Github</a>
+            <a href="#">Linkedin</a>
+            <a href="#">Resume´</a>
+          </div>
+        </div>
       </footer>
     </div>
   );

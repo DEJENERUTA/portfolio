@@ -1,0 +1,48 @@
+h1,
+h2 {
+  color: var(--color-primary);
+}
+
+.quotes {
+  text-align: center;
+  font-size: 1.5em;
+  font-family: "Roboto", sans-serif;
+  color: var(--color-accent);
+  margin-top: 1em;
+}
+.rotate-img {
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+}
+.rotate-img:hover {
+  animation-name: rotate;
+  animation-duration: 0.7s;
+  animation-delay: 1s;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* flex the home-content div */
+.home-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin-top: 20px;
+  gap: 4em;
+}
+/* home title border buttom */
+
+.home-title {
+  border-bottom: 2px solid #ffff00;
+  margin-bottom: 1em;
+  max-width: 580px;
+}
