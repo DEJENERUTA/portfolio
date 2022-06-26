@@ -6,6 +6,11 @@ import About from "./about/About";
 import Projects from "./projects/Projects";
 import Contact from "./contact/Contact";
 
+//fontawesome icons
+import { BsTwitter, BsLinkedin } from "react-icons/bs";
+import { AiOutlineGithub } from "react-icons/ai";
+import { GrResume } from "react-icons/gr";
+
 const App = () => {
   return (
     <div className="app">
@@ -27,10 +32,22 @@ const App = () => {
       <footer className="app-footer">
         <div className="app-footer-inner-wrapper">
           <div className="app-footer-links">
-            <a href="#">Twitter</a>
-            <a href="#">Github</a>
-            <a href="#">Linkedin</a>
-            <a href="#">Resume´</a>
+            <a className="gap" href="#">
+              <BsTwitter />
+              Twitter
+            </a>
+            <a className="gap" href="#">
+              <AiOutlineGithub />
+              Github
+            </a>
+            <a className="gap" href="#">
+              <BsLinkedin />
+              Linkedin
+            </a>
+            <a className="gap" href="#">
+              <GrResume className="gap-resume" />
+              Resume´
+            </a>
           </div>
         </div>
       </footer>
