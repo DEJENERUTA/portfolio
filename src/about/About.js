@@ -37,8 +37,10 @@ const About = () => {
         </div>
         <div className="about-text">
           <h2>About Me</h2>
-          <h3>Hello, I’M Dejene Daba</h3>
-          <p>
+          <h3 className="D">
+            Hello, <span>I’M Dejene Daba</span>
+          </h3>
+          <p className="about-desc">
             Hello! My name is Dejene and I enjoy creating things that live on
             the internet. My interest in web development started back in 2019
             when I decided to change my career taught me a lot about HTML & CSS!
@@ -46,12 +48,12 @@ const About = () => {
             the internet. My interest in web development started back in 2019
             when I decided to change my career taught me a lot about HTML & CSS!
           </p>
-          <p>
+          <p className="about-desc">
             ever since the 1500s, when an unknown printer took a galley of type
             and scrambled it to make a type specimen book. It has survived not
             only five
           </p>
-          <p>
+          <p className="about-desc">
             ever since the 1500s, when an unknown printer took a galley of type
             and scrambled it to make a type specimen book. It has survived not
             only five
@@ -59,7 +61,7 @@ const About = () => {
         </div>
       </div>
       <div className="about-skills">
-        <h3 className="skills">My Skills</h3>
+        <h4 className="skills">My Skills</h4>
         <div className="skills-content">
           <AiFillHtml5 />
           <DiCss3 />
