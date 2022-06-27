@@ -4,6 +4,7 @@ import { DiCss3 } from "react-icons/di";
 import { DiJavascript } from "react-icons/di";
 import { DiReact } from "react-icons/di";
 import { SiTailwindcss } from "react-icons/si";
+import { BsGithub } from "react-icons/bs";
 const About = () => {
   return (
     <div className="about-main-content">
@@ -11,8 +12,8 @@ const About = () => {
         <div>
           <svg
             className="about-pic-svg"
-            width="270"
-            height="250"
+            width="450"
+            height="400"
             viewBox="0 0 350 370"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -36,7 +37,7 @@ const About = () => {
           />
         </div>
         <div className="about-text">
-          <h2>About Me</h2>
+          <h2 className="about">About Me</h2>
           <h3 className="D">
             Hello, <span>I’M Dejene Daba</span>
           </h3>
@@ -68,6 +69,7 @@ const About = () => {
           <DiJavascript />
           <DiReact />
           <SiTailwindcss />
+          <BsGithub />
         </div>
       </div>
     </div>

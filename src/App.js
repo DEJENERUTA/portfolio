@@ -33,16 +33,16 @@ const App = () => {
         <div className="app-footer-inner-wrapper">
           <div className="app-footer-links">
             <a className="gap" href="#">
-              <BsTwitter />
-              Twitter
-            </a>
-            <a className="gap" href="#">
               <AiOutlineGithub />
               Github
             </a>
             <a className="gap" href="#">
               <BsLinkedin />
               Linkedin
+            </a>
+            <a className="gap" href="#">
+              <BsTwitter />
+              Twitter
             </a>
             <a className="gap" href="#">
               <GrResume className="gap-resume" />
