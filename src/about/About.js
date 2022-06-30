@@ -10,32 +10,15 @@ const About = () => {
   return (
     <div className="about-main-content">
       <div className="about-content">
-        <div>
-          <svg
-            className="about-pic-svg"
-            width="400"
-            height="350"
-            viewBox="0 0 350 370"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <rect
-              id="Rectangle 25"
-              x="3"
-              y="3"
-              width="344"
-              height="364"
-              fill="#ffffff"
-              stroke="#FFFF00"
-              stroke-width="6"
-            />
-          </svg>
+        <div className="about-pic-wrapper">
+          <div className="about-pic-border"></div>
           <img
             className="about-pic"
             src="./assets/about-pic.jpg"
             alt=""
             srcset=""
           />
+          <div className="about-pic-overlay"></div>
         </div>
         <div className="about-text">
           <h2 className="about">About Me</h2>

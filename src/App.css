@@ -9,6 +9,7 @@
 }
 .app-main {
   background-color: white;
+  padding-block: 2em;
 }
 .app-footer {
   background-color: var(--color-primary);

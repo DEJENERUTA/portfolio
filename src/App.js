@@ -8,8 +8,7 @@ import Contact from "./contact/Contact";
 
 //fontawesome icons
 import { BsTwitter, BsLinkedin } from "react-icons/bs";
-import { AiOutlineGithub } from "react-icons/ai";
-import { GrResume } from "react-icons/gr";
+import { AiOutlineGithub, AiFillFileText } from "react-icons/ai";
 
 const App = () => {
   return (
@@ -45,8 +44,8 @@ const App = () => {
               Twitter
             </a>
             <a className="gap" href="#">
-              <GrResume className="gap-resume" />
-              Resume´
+              <AiFillFileText />
+              Resumé
             </a>
           </div>
         </div>

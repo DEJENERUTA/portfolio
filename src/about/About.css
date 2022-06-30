@@ -2,6 +2,7 @@
   width: 100%;
   height: 100%;
 }
+
 .about {
   margin-top: 20px;
 }
@@ -9,22 +10,50 @@
   width: 100%;
   display: flex;
   gap: 2em;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
 }
-.about-pic {
-  overflow: hidden;
+.about-pic-wrapper {
   position: relative;
   width: 350px;
   height: 350px;
-  margin-top: 20px;
 }
-.about-pic-svg {
+.about-pic {
   position: absolute;
-  margin-top: 40px;
+  width: 100%;
+  height: 100%;
+}
+.about-pic-border {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 5px solid var(--color-decoration);
+  transform: translateX(1em) translateY(1em);
+  transition: transform 0.25s ease-in-out;
+}
+.about-pic-wrapper:hover .about-pic-border {
+  transform: translateX(0.6em) translateY(0.6em);
+}
+.about-pic-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    0deg,
+    rgba(50, 118, 111, 1) 0%,
+    rgba(50, 118, 111, 0) 100%
+  );
+  opacity: 0.5;
+  transition: opacity 0.25s ease-in-out;
+}
+.about-pic-wrapper:hover .about-pic-overlay {
+  opacity: 0;
 }
 .D {
   margin-top: 20px;
+}
+.about {
+  margin-top: 0;
 }
 .D span {
   color: var(--color-accent);
@@ -34,7 +63,6 @@
 }
 .about-text {
   width: 480px;
-  margin-top: 20px;
 }
 .skills {
   text-align: center;

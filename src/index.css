@@ -15,4 +15,5 @@ body {
   --color-accent: hsl(140, 25%, 70%);
   --color-dark: hsl(147, 94%, 6%);
   --color-text: hsl(123, 91%, 4%);
+  --color-decoration: #ffff00;
 }
