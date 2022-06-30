@@ -4,6 +4,13 @@
   align-items: center;
   height: 100%;
 }
+.site-logo .hexagon {
+  transform-origin: center;
+  transition: transform 0.25s ease-in-out;
+}
+.site-logo:hover .hexagon {
+  transform: rotate(60deg);
+}
 .site-navigation {
   display: flex;
   align-items: center;
