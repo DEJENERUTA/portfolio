@@ -41,4 +41,30 @@
   padding: 0.5em;
   background: none;
   border: none;
+  cursor: pointer;
+}
+.burger-menu .line-1 {
+  transform-origin: center;
+  transform: translateY(-1em) rotate(0deg);
+  transition: transform 0.25s ease-in-out;
+}
+.burger-menu .line-2 {
+  transform-origin: center;
+  transform: translateY(0) rotate(0deg);
+  transition: transform 0.25s ease-in-out, opacity 0.25s ease-in-out;
+}
+.burger-menu .line-3 {
+  transform-origin: center;
+  transform: translateY(1em) rotate(0deg);
+  transition: transform 0.25s ease-in-out;
+}
+.burger-menu.open .line-1 {
+  transform: translateY(0) rotate(225deg);
+}
+.burger-menu.open .line-2 {
+  transform: translateY(0) rotate(180deg);
+  opacity: 0;
+}
+.burger-menu.open .line-3 {
+  transform: translateY(0) rotate(135deg);
 }

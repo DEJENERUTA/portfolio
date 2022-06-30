@@ -49,7 +49,7 @@ const Header = () => {
         </nav>
         <button
           onClick={() => setIsMenuOpen(!isMenuOpen)}
-          className="burger-menu"
+          className={classnames("burger-menu", { open: isMenuOpen })}
         >
           <svg
             width="41"
@@ -58,32 +58,30 @@ const Header = () => {
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <g id="Group 3">
-              <line
-                id="Line 19"
-                y1="17"
-                x2="41"
-                y2="17"
-                stroke="#FFFF00"
-                stroke-width="4"
-              />
-              <line
-                id="Line 19_2"
-                y1="31"
-                x2="41"
-                y2="31"
-                stroke="#FFFF00"
-                stroke-width="4"
-              />
-              <line
-                id="Line 19_3"
-                y1="2"
-                x2="41"
-                y2="2"
-                stroke="#FFFF00"
-                stroke-width="4"
-              />
-            </g>
+            <line
+              className="line-1"
+              y1="17"
+              x2="41"
+              y2="17"
+              stroke="#FFFF00"
+              stroke-width="4"
+            />
+            <line
+              className="line-2"
+              y1="17"
+              x2="41"
+              y2="17"
+              stroke="#FFFF00"
+              stroke-width="4"
+            />
+            <line
+              className="line-3"
+              y1="17"
+              x2="41"
+              y2="17"
+              stroke="#FFFF00"
+              stroke-width="4"
+            />
           </svg>
         </button>
       </div>
