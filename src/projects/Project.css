@@ -1,0 +1,10 @@
+.project-item-container {
+  width: 100%;
+  display: flex;
+  gap: 1em;
+}
+
+.project-image {
+  object-fit: cover;
+  border: 2px solid red;
+}

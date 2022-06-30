@@ -5,6 +5,7 @@ import { DiJavascript } from "react-icons/di";
 import { DiReact } from "react-icons/di";
 import { SiTailwindcss } from "react-icons/si";
 import { BsGithub } from "react-icons/bs";
+
 const About = () => {
   return (
     <div className="about-main-content">
@@ -12,8 +13,8 @@ const About = () => {
         <div>
           <svg
             className="about-pic-svg"
-            width="450"
-            height="400"
+            width="400"
+            height="350"
             viewBox="0 0 350 370"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
