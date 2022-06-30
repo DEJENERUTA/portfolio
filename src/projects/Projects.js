@@ -1,4 +1,4 @@
-import Project from "./projects/Project";
+import Project from "./Project";
 
 const projectArray = [
   {
