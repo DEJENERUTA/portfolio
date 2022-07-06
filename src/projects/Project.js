@@ -14,9 +14,9 @@ const Project = ({
         <div className="project-image">
           <img src={image} alt="airbnb" />
         </div>
-        <div className="">
+        <div className="content">
           <div className="project-name">
-            <h3>{(name = "name")}</h3>
+            <h3>{name}</h3>
           </div>
           <div className="project-description">
             <p>Description: {description}</p>
