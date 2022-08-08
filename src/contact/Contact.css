@@ -1,0 +1,87 @@
+/*create a contact form that have name, email and message, the form should display inline block */
+.contact-title {
+  text-align: center;
+}
+.contact-form {
+  width: 50%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 2fr;
+  margin-top: 20px;
+  gap: 20px;
+}
+.form {
+  padding: 20px;
+}
+.contact-form-input {
+  width: 100%;
+}
+.text-center {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.contact-form input[type="text"] {
+  width: 300px;
+  height: 30px;
+  border: 1px solid #ffff00;
+  border-radius: 10px;
+  border-width: 5px;
+  padding: 20px;
+}
+.contact-form input[type="email"] {
+  width: 300px;
+  height: 30px;
+  border: 1px solid #ffff00;
+  border-radius: 10px;
+  border-width: 5px;
+  padding: 20px;
+}
+
+.contact-form textarea {
+  resize: none;
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+  height: 150px;
+  border: 1px solid #ffff00;
+  border-radius: 10px;
+  border-width: 5px;
+  margin-top: 20px;
+}
+.text-area-input {
+  display: flex;
+  width: 100%;
+  height: 30px;
+  border: 1px solid #ffff00;
+  border-radius: 10px;
+  border-width: 5px;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.text-area {
+  margin-top: 20px;
+}
+
+.contact-form label {
+  display: block;
+  width: 100px;
+  text-align: right;
+}
+.contact-form-group1 {
+  display: flex;
+  gap: 4rem;
+  width: 100%;
+}
+.btn {
+  width: 100%;
+  height: 30px;
+  background-color: #e9c46a;
+  border-radius: 5px;
+  padding: 5px;
+  float: right;
+  cursor: pointer;
+  margin-top: 15px;
+}

@@ -21,7 +21,7 @@ const About = () => {
           <div className="about-pic-overlay"></div>
         </div>
         <div className="about-text">
-          <h2 className="about">About Me</h2>
+          <h2 className="about">About Dejene</h2>
           <h3 className="D">
             Hello, <span>I’M Dejene Daba</span>
           </h3>
@@ -29,19 +29,14 @@ const About = () => {
             Hello! My name is Dejene and I enjoy creating things that live on
             the internet. My interest in web development started back in 2019
             when I decided to change my career taught me a lot about HTML & CSS!
-            Hello! My name is Dejene and I enjoy creating things that live on
-            the internet. My interest in web development started back in 2019
-            when I decided to change my career taught me a lot about HTML & CSS!
+            I'm currently studying as a Front-end web developer and I'm always
+            interested in a challenge. Reach out to me if you have any questions
+            <a>dejenedaba269@gmail.com</a> to connect!
           </p>
           <p className="about-desc">
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five
-          </p>
-          <p className="about-desc">
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five
+            Motivated recent web development graduate with experience building
+            unbreakable and elegant websites looking for an opportunity to grow
+            front-end development skills in an innovative environment.
           </p>
         </div>
       </div>
