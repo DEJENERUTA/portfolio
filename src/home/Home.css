@@ -2,6 +2,19 @@ h1,
 h2 {
   color: var(--color-primary);
 }
+h1,
+h2 {
+  animation: popUp 1s ease-in-out;
+  animation-fill-mode: forwards;
+}
+@keyframes popUp {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 .quotes {
   text-align: center;
   font-size: 1.5em;
@@ -9,7 +22,19 @@ h2 {
   color: var(--color-accent);
   margin-top: 1em;
 }
-
+/*quotes should have an animation which will pop up when first time the page is loading*/
+.quotes {
+  animation: popUp 1s ease-in-out;
+  animation-fill-mode: forwards;
+}
+@keyframes popUp {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 .rotate-img {
   width: 300px;
   height: 300px;
@@ -42,4 +67,15 @@ h2 {
   border-bottom: 2px solid #ffff00;
   margin-bottom: 1em;
   max-width: 580px;
+}
+
+/* responssive*/
+@media (max-width: 640px) {
+  .home-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+  }
 }

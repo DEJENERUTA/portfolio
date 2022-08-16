@@ -21,16 +21,18 @@ const Project = ({
           <div className="project-description">
             <p>Description: {description}</p>
           </div>
-          <div className="project-technologies">
-            <p>Technologies: {technologies}</p>
-          </div>
-          <div className="project-links">
-            <a className="source-underline" href={githubUrl}>
-              View Source Code
-            </a>
-            <a className="demo-underline" href={liveDemoUrl}>
-              View Live Demo
-            </a>
+          <div>
+            <div className="project-technologies">
+              <p>Technologies: {technologies}</p>
+            </div>
+            <div className="project-links">
+              <a className="source-underline" href={githubUrl}>
+                View Source Code
+              </a>
+              <a className="demo-underline" href={liveDemoUrl}>
+                View Live Demo
+              </a>
+            </div>
           </div>
         </div>
       </div>

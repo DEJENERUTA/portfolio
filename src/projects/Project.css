@@ -7,7 +7,7 @@
 .project-item-container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   gap: 1.5em;
   margin-top: 2rem;
 }
@@ -15,7 +15,7 @@
   font-size: 1.5rem;
   font-weight: bold;
   text-align: center;
-  margin-bottom: 01.5rem;
+  margin-bottom: 1rem;
 }
 .project-info {
   width: 100%;
@@ -32,6 +32,20 @@
   margin-top: 1rem;
   line-height: 1;
 }
+/* when hover project description the text should have some annimations*/
+.project-description:hover {
+  animation: fadeIn 1.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .project-description p {
   font-size: 1rem;
   line-height: 1.5;
@@ -40,11 +54,14 @@
   width: 50%;
 } */
 .project-image img {
-  width: 400px;
-  height: 400px;
+  object-fit: cover;
+  width: 350px;
+  height: 350px;
   border-radius: 100%;
 }
 .content {
+  display: flex;
+  flex-direction: column;
   width: 50%;
 }
 .project-item {
@@ -70,4 +87,14 @@
 .demo-underline {
   text-decoration: underline;
   color: var(--color-links);
+}
+
+/* responssive*/
+@media (max-width: 768px) {
+  .project-item-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+    margin-top: 2rem;
+  }
 }

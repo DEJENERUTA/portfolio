@@ -22,6 +22,7 @@
   pointer-events: none;
   transition: opacity 0.5s, transform 0.5s;
 }
+
 .site-menu.open {
   opacity: 1;
   transform: translateX(0);

@@ -6,6 +6,19 @@
 .about {
   margin-top: 20px;
 }
+.about h2,
+h3 {
+  animation: popUp 1s ease-in-out;
+  animation-fill-mode: forwards;
+}
+@keyframes popUp {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 .about-content {
   width: 100%;
   display: flex;
@@ -62,6 +75,18 @@
   margin-top: 20px;
   line-height: 1.5;
 }
+.about-desc {
+  animation: popUp 1s ease-in-out;
+  animation-fill-mode: forwards;
+}
+@keyframes popUp {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 .about-text {
   width: 480px;
 }
@@ -84,4 +109,31 @@
   color: var(--color-secondary);
   margin: auto;
   margin-top: 20px;
+}
+/*the skill content should have an annimation that is moving from left to right*/
+.skills-content {
+  animation: moveFromLeft 1s ease-in-out;
+  animation-fill-mode: forwards;
+}
+@keyframes moveFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.skills-content:hover {
+  color: var(--color-accent);
+}
+
+/*responssive*/
+@media (max-width: 640px) {
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+  }
 }
