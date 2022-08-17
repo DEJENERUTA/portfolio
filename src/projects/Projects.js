@@ -4,7 +4,7 @@ const projectArray = [
   {
     name: "AIRBNB CLONE",
     description:
-      "A clone of Airbnb's website. This is a React app that uses the react-router-dom library to navigate between pages.it is a group project that I participated in with my friend and I created this project in a group of 4. I used the react-bootstrap library to create the UI and the react-router-dom library to create the navigation.",
+      "A clone of Airbnb's website. This is a React app that uses the react-router-dom library to navigate between pages.it is a group project that I participated in with my class mates. I created this project in a group of 4 people. I used the react-bootstrap library to create the UI and the react-router-dom library to create the navigation.",
     technologies: "React, React-Router-Dom, React-Bootstrap",
     technologies: "Reactjs, TailwindCss and Git and Github",
     githubUrl: "https://github.com/DEJENERUTA/Insta-gruppe4_2022",
@@ -14,7 +14,7 @@ const projectArray = [
   {
     name: "SMART LIGHT",
     description:
-      "A smart light project is a web application that is used to controll rooms light. in this project I used the react-hooks library to create a state management system. I also used the react-router-dom library to navigate between pages.",
+      "A smart light project is a web application that is used to controll rooms light. in this project I used the react-hooks library to create a state management system. I also used the react-router-dom library to navigate between pages. in this project I learnt fetching data from an API and, lean a lot about props and state.",
     technologies: "React.Js",
     githubUrl: "dejeneruta",
     liveDemoUrl: "https://vercel.com/dejeneruta/smart-light-app",

@@ -47,7 +47,7 @@
 }
 
 .project-description p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1.5;
 }
 /* .project-image {
@@ -73,9 +73,12 @@
   gap: 2rem;
   margin-top: 1rem;
   color: var(--color-accent);
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 .project-technologies {
   margin-top: 1rem;
+  font-size: 1.2rem;
 }
 .bold {
   font-weight: bold;

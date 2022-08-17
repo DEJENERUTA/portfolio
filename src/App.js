@@ -31,19 +31,25 @@ const App = () => {
       <footer className="app-footer">
         <div className="app-footer-inner-wrapper">
           <div className="app-footer-links">
-            <a className="gap" href="#">
+            <a className="gap" href="https://github.com/DEJENERUTA">
               <AiOutlineGithub />
               Github
             </a>
-            <a className="gap" href="#">
+            <a
+              className="gap"
+              href="https://www.linkedin.com/in/dejene-daba-432029140/"
+            >
               <BsLinkedin />
               Linkedin
             </a>
-            <a className="gap" href="#">
+            <a className="gap" href="https://twitter.com/DejeneDaba5">
               <BsTwitter />
               Twitter
             </a>
-            <a className="gap" href="#">
+            <a
+              className="gap"
+              href="Dejene_Daba_-_Front_end_Developer (new).pdf"
+            >
               <AiFillFileText />
               Resumé
             </a>

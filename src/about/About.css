@@ -73,7 +73,8 @@ h3 {
 }
 .about-desc {
   margin-top: 20px;
-  line-height: 1.5;
+  line-height: 1.2;
+  font-size: 1.2em;
 }
 .about-desc {
   animation: popUp 1s ease-in-out;

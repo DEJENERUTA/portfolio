@@ -32,6 +32,15 @@
   display: flex;
   gap: 1em;
   list-style: none;
+  font-size: 1.5em;
+}
+/*site menu li has to be zoomed out with animation when the user clicked*/
+.site-menu li:hover {
+  cursor: pointer;
+  transform: scale(1s);
+  transition: transform 0.25s ease-in-out;
+  border: 1px solid #fff;
+  opacity: 1s ease-in-out;
 }
 .site-menu a {
   text-decoration: none;

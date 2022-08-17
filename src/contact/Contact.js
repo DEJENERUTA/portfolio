@@ -1,14 +1,31 @@
 // create portfolio contact page with a form to send email to me with the contact info and a message from the user to me
 import "./Contact.css";
+/* import { useForm } from "react-hook-form";
+import { yupResolver } from "@hookform/resolvers/yup";
+import * as yup from "yup"; */
 const Contact = () => {
+  /* const emailRegEx =
+    /^([^.][a-z,0-9,!#$%&'*+\-/=?^_`{|}~.]{1,64})([^.,\s]@)([a-z\-]{1,255})(\.[a-z0-9]{2,})$/gi;
+  const schema = yup.object().shape({
+    name: yup.string().required("Name is required"),
+    email: yup
+      .string()
+      .required("Email is required")
+      .matches(emailRegEx, "Email is not valid"),
+    message: yup.string().required("Message is required"),
+  });
+  const { register, handleSubmit, errors } = useForm({
+    resolver: yupResolver(schema),
+  });
+  const onSubmit = (data) => {
+    console.log(data);
+  }; */
+
   return (
     <div className="contact-form">
       <h2 className="contact-title">Contact Dejene</h2>
-      <form
-        className="form"
-        action="https://formspree.io/mjqjqjqj"
-        method="POST"
-      >
+      <form className="form">
+        {/* onSubmit={handleSubmit(onSubmit)} */}
         <div className="contact-form-input">
           <div className="contact-form-group1">
             <div>
