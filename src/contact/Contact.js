@@ -29,7 +29,6 @@ const Contact = () => {
         <div className="contact-form-input">
           <div className="contact-form-group1">
             <div>
-              <label className="text-center">Name</label>
               <input
                 className="contact-input"
                 type="text"
@@ -39,7 +38,6 @@ const Contact = () => {
               />
             </div>
             <div>
-              <label className="text-center">Email</label>
               <input
                 className="contact-input"
                 type="email"
@@ -51,7 +49,6 @@ const Contact = () => {
           </div>
           <div className="contact-form-group1">
             <div>
-              <label className="text-center">Phone</label>
               <input
                 className="contact-input"
                 type="text"
@@ -61,7 +58,6 @@ const Contact = () => {
               />
             </div>
             <div>
-              <label className="text-center">Subject</label>
               <input
                 className="contact-input"
                 type="text"
@@ -73,7 +69,6 @@ const Contact = () => {
           </div>
         </div>
         <div className="text-area">
-          <label className="text-area-label">Message</label>
           <textarea
             className="text-area-input"
             type="text"

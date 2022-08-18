@@ -27,6 +27,7 @@
 }
 .project-item-list {
   list-style: none;
+  margin-top: 4rem;
 }
 .project-description {
   margin-top: 1rem;
