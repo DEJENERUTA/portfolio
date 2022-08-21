@@ -54,8 +54,8 @@
 .project-image img {
   object-fit: cover;
   width: 350px;
-  height: 350px;
-  border-radius: 100%;
+  height: 330px;
+  border-radius: 30px;
 }
 /*when hover the project image rotate the image*/
 .project-image:hover img {
