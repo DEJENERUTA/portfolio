@@ -5,8 +5,7 @@ const projectArray = [
     name: "AIRBNB CLONE",
     description:
       "A clone of Airbnb's website. This is a React app that uses the react-router-dom library to navigate between pages.it is a group project that I participated in with my class mates. I created this project in a group of 4 people. I used the react-bootstrap library to create the UI and the react-router-dom library to create the navigation.",
-    technologies: "React, React-Router-Dom, React-Bootstrap",
-    technologies: "Reactjs, TailwindCss and Git and Github",
+    technologies: "Reactjs, TailwindCss, Git and Github",
     githubUrl: "https://github.com/DEJENERUTA/Insta-gruppe4_2022",
     liveDemoUrl: "https://vercel.com/dejeneruta/airbnb",
     image: "/assets/duper.png",

@@ -1,4 +1,3 @@
-/*create a contact form that have name, email and message, the form should display inline block */
 .contact-title {
   text-align: center;
 }
@@ -15,7 +14,7 @@
 .form {
   padding: 20px;
 }
-/*the contact form input should have to have only a give border, not a default border*/
+
 .form input {
   border: 1px solid #fff;
 }
