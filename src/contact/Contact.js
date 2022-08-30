@@ -1,12 +1,15 @@
+import React, { useState } from "react";
 import "./Contact.css";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
+/*import { formContext } from "../context/formContext";
+import { useContext } from "react"; */
 
 const Contact = () => {
   const emailRegEx =
     /^([^.][a-z,0-9,!#$%&'*+\-/=?^_`{|}~.]{1,64})([^.,\s]@)([a-z-]{1,255})(\.[a-z0-9]{2,})$/gi;
-  const schema = yup.object().shape({
+  const schema = yup.object({
     name: yup
       .string()
       .required("Name is required")
@@ -15,8 +18,9 @@ const Contact = () => {
       .max(20, "Name should be less than 20 characters"),
     email: yup
       .string()
+      .email("Email is not valid")
       .required("Email is required")
-      .matches(emailRegEx, "Email is not valid"),
+      .matches(emailRegEx, "name@domæne.dk"),
     phone: yup
       .string()
       .required("Phone is required")
@@ -48,12 +52,12 @@ const Contact = () => {
     <div className="contact-form">
       <h2 className="contact-title">Contact Dejene</h2>
       <form
-        className="form"
         onSubmit={(e) => {
           e.preventDefault();
           handleSubmit(onSubmit);
           console.log(errors);
         }}
+        className="form"
       >
         <div className="contact-form-input">
           <div className="contact-form-group1">
@@ -79,12 +83,12 @@ const Contact = () => {
             </div>
           </div>
           <div className="contact-form-group1">
-            {errors?.phone?.number}
+            {errors?.phone?.message}
             <div>
               <input
                 {...register("phone")}
                 className="contact-input"
-                type="number"
+                type="text"
                 placeholder="Phone"
                 name="phone"
               />
