@@ -16,6 +16,7 @@ h2 {
   }
 }
 .quotes {
+  width: 100%;
   text-align: center;
   font-size: 1.5em;
   font-family: "Roboto", sans-serif;

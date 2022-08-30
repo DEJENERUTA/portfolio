@@ -24,7 +24,7 @@ const Header = () => {
             <path
               d="M13.0481 39.2321L75 3.4641L136.952 39.2321V110.768L75 146.536L13.0481 110.768V39.2321Z"
               stroke="#FFFF00"
-              stroke-width="6"
+              strokeWidth="6"
               className="hexagon"
             />
           </svg>
@@ -64,7 +64,7 @@ const Header = () => {
               x2="41"
               y2="17"
               stroke="#FFFF00"
-              stroke-width="4"
+              strokeWidth="4"
             />
             <line
               className="line-2"
@@ -72,7 +72,7 @@ const Header = () => {
               x2="41"
               y2="17"
               stroke="#FFFF00"
-              stroke-width="4"
+              strokeWidth="4"
             />
             <line
               className="line-3"
@@ -80,7 +80,7 @@ const Header = () => {
               x2="41"
               y2="17"
               stroke="#FFFF00"
-              stroke-width="4"
+              strokeWidth="4"
             />
           </svg>
         </button>

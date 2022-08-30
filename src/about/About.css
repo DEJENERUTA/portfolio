@@ -93,7 +93,9 @@ h3 {
   width: 480px;
 }
 /*the skills icons has to rotate fully */
-
+.about-skills {
+  overflow: hidden;
+}
 .skills {
   text-align: center;
   margin-top: 50px;
@@ -114,19 +116,20 @@ h3 {
   margin: auto;
   margin-top: 20px;
 }
-/*the skill content should have an annimation that is moving from left to right*/
+
 .skills-content {
-  animation: moveFromLeft 1s ease-in-out;
+  animation: moveFromRight 10s infinite;
   animation-fill-mode: forwards;
 }
-@keyframes moveFromLeft {
-  0% {
+@keyframes moveFromRight {
+  100% {
     transform: translateX(-100%);
   }
-  100% {
+  0% {
     transform: translateX(0);
   }
 }
+
 .skills-content:hover {
   color: var(--color-accent);
 }
