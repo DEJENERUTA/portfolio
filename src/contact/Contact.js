@@ -3,10 +3,9 @@ import "./Contact.css";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
-/*import { formContext } from "../context/formContext";
-import { useContext } from "react"; */
 
 const Contact = () => {
+  const [status, setStatus] = useState("Submit");
   const emailRegEx =
     /^([^.][a-z,0-9,!#$%&'*+\-/=?^_`{|}~.]{1,64})([^.,\s]@)([a-z-]{1,255})(\.[a-z0-9]{2,})$/gi;
   const schema = yup.object({
@@ -40,25 +39,44 @@ const Contact = () => {
   const {
     register,
     handleSubmit,
+    reset,
     formState: { errors },
   } = useForm({
     resolver: yupResolver(schema),
   });
-  const onSubmit = (data) => {
+  /* const onSubmit = (data) => {
     console.log(data);
+  }; */
+  /* email sending functionaliy */
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const [isSend, setIsSend] = useState(false);
+
+  const emailSubmit = async (data) => {
+    console.log(data);
+    setStatus("Sending...");
+    let response = await fetch("http://localhost:5000/contact", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json;charset=utf-8",
+      },
+      body: JSON.stringify(data),
+    });
+    setStatus("Submit");
+    let result = await response.json();
+    alert(result.status);
+    reset();
+    setIsSend(true);
+    setTimeout(() => {
+      setIsSend(false);
+    }, 5000);
   };
 
   return (
     <div className="contact-form">
       <h2 className="contact-title">Contact Dejene</h2>
-      <form
-        onSubmit={(e) => {
-          e.preventDefault();
-          handleSubmit(onSubmit);
-          console.log(errors);
-        }}
-        className="form"
-      >
+      <form onSubmit={handleSubmit(emailSubmit)} className="form">
         <div className="contact-form-input">
           <div className="contact-form-group1">
             {errors?.name?.message}
@@ -115,7 +133,7 @@ const Contact = () => {
             name="message"
           />
         </div>
-        <button className="btn">Send</button>
+        <button className="btn">{isSend ? "Message was send" : "Send"}</button>
       </form>
     </div>
   );

@@ -46,10 +46,7 @@ const App = () => {
               <BsTwitter />
               Twitter
             </a>
-            <a
-              className="gap"
-              href="Dejene_Daba_-_Front_end_Developer (new).pdf"
-            >
+            <a className="gap" href="Dejene's_cv.pdf">
               <AiFillFileText />
               Resumé
             </a>
