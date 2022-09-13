@@ -2,22 +2,22 @@ import Project from "./Project";
 
 const projectArray = [
   {
-    name: "AIRBNB CLONE",
+    name: "THE GREEK ISLANDS",
     description:
-      "A clone of Airbnb's website. This is a React app that uses the react-router-dom library to navigate between pages.it is a group project that I participated in with my class mates. I created this project in a group of 4 people. I used the react-bootstrap library to create the UI and the react-router-dom library to create the navigation.",
-    technologies: "Reactjs, TailwindCss, Git and Github",
-    githubUrl: "https://github.com/DEJENERUTA/Insta-gruppe4_2022",
-    liveDemoUrl: "https://vercel.com/dejeneruta/airbnb",
-    image: "/assets/duper.png",
+      "A website that provides information about the Greek islands. through the website the user can see some images of the Islands and can read about it. I learnt how to make read more and read less through the project and I also learnt how to change the images by clicking right and left arrows.",
+    technologies: "Html, Css, Javascript Git and Github",
+    githubUrl: "https://github.com/DEJENERUTA/next-greekilands-project",
+    liveDemoUrl: " https://dejeneruta.github.io/next-greekilands-project/",
+    image: "/assets/greek-island-project.png",
   },
   {
-    name: "SMART LIGHT",
+    name: "TRAINER APP",
     description:
-      "A smart light project is a web application that is used to controll rooms light. in this project I used the react-hooks library to create a state management system. I also used the react-router-dom library to navigate between pages. in this project I learnt fetching data from an API and, lean a lot about props and state.",
+      "A trainer app is a web application project  that used for fitness center. the app will help the user to see trainers, available classes, and a form to login and sign up for classes.  in this project I used the react-hooks library to create a state management system. I also used the react-router-dom library to navigate between pages. in this project I learnt fetching data from an API and, learn a lot about props and state.",
     technologies: "React.Js",
-    githubUrl: "dejeneruta",
-    liveDemoUrl: "https://vercel.com/dejeneruta/smart-light-app",
-    image: "/assets/smart-light.png",
+    githubUrl: "https://github.com/DEJENERUTA/terminsprove",
+    liveDemoUrl: "https://vercel.com/dejeneruta/terminsprove",
+    image: "/assets/pre-exam-project.png",
   },
   {
     name: "NEWS BOX",
@@ -26,7 +26,7 @@ const projectArray = [
     technologies: "Html, Css and Javascript",
     githubUrl: "https://github.com/DEJENERUTA/newsbox-DEJENERUTA",
     liveDemoUrl: "https://newsbox-dejeneruta.vercel.app/",
-    image: "/assets/newsbox.png",
+    image: "/assets/news-box-project.png",
   },
   {
     name: "ZULA RESTAURANT",

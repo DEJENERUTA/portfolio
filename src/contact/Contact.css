@@ -86,3 +86,10 @@
   cursor: pointer;
   margin-top: 4rem;
 }
+.btn:hover {
+  background-color: var(--color-primary);
+}
+.btn-icon {
+  font-size: 1rem;
+  color: #fff;
+}

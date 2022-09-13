@@ -3,6 +3,7 @@ import "./Contact.css";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
+import { FiSend } from "react-icons/fi";
 
 const Contact = () => {
   const [status, setStatus] = useState("Submit");
@@ -133,7 +134,9 @@ const Contact = () => {
             name="message"
           />
         </div>
-        <button className="btn">{isSend ? "Message was send" : "Send"}</button>
+        <button className="btn">
+          {isSend ? "Message was send" : <FiSend className="btn-icon" />}
+        </button>
       </form>
     </div>
   );
