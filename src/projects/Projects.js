@@ -16,14 +16,14 @@ const projectArray = [
       "A trainer app is a web application project  that used for fitness center. the app will help the user to see trainers, available classes, and a form to login and sign up for classes.  in this project I used the react-hooks library to create a state management system. I also used the react-router-dom library to navigate between pages. in this project I learnt fetching data from an API and, learn a lot about props and state.",
     technologies: "React.Js",
     githubUrl: "https://github.com/DEJENERUTA/terminsprove",
-    liveDemoUrl: "https://vercel.com/dejeneruta/terminsprove",
+    liveDemoUrl: "https://terminsprove.vercel.app/",
     image: "/assets/pre-exam-project.png",
   },
   {
     name: "NEWS BOX",
     description:
-      "News box  is a web application that is used to display news from an api. I fetched the new york times api and displayed the news in a list. I used the react-hooks library to create a state management system. I also used the react-router-dom library to navigate between pages.",
-    technologies: "Html, Css and Javascript",
+      "News box  is a web application that is used to display news from an api. I fetched the new york times api and displayed the news in a list. I learn how to make dark mode and light mode in this project. in this project I learn how to save data in archive, I also learn how to save data in localstorage. the user can save the news in archive and can delete the news from archive. ",
+    technologies: "Html, Css and Javascript, gulp, sass, git and github",
     githubUrl: "https://github.com/DEJENERUTA/newsbox-DEJENERUTA",
     liveDemoUrl: "https://newsbox-dejeneruta.vercel.app/",
     image: "/assets/news-box-project.png",
