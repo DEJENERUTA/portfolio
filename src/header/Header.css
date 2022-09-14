@@ -1,7 +1,15 @@
+nav {
+  max-width: 1440px;
+  width: 100%;
+}
+nav ul {
+  width: 100%;
+}
 .site-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
   height: 100%;
 }
 .site-logo .hexagon {
@@ -77,4 +85,36 @@
 }
 .burger-menu.open .line-3 {
   transform: translateY(0) rotate(135deg);
+}
+
+/* responssive*/
+@media screen and (max-width: 640px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  .site-header {
+    justify-content: space-between;
+    padding: 0.5em;
+    width: 100%;
+  }
+  .site-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background: var(--color-primary);
+    margin: 10rem;
+    padding-top: 8em;
+  }
+  .site-menu ul {
+    flex-direction: column;
+    gap: 1em;
+    margin-top: 100px;
+  }
+  .site-menu li {
+    font-size: 1em;
+  }
 }
