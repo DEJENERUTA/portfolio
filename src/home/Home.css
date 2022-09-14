@@ -28,7 +28,7 @@ h2 {
   font-size: 1.5em;
   font-family: "Roboto", sans-serif;
   color: var(--color-accent);
-  margin-top: 4em;
+  margin-top: 8em;
 }
 
 .quotes {
@@ -85,7 +85,6 @@ h2 {
     justify-content: center;
     gap: 1em;
   }
-  /* home quotes have to have width 100% and text-align center and will fit to the responsive screen */
   .quotes {
     padding: 2em;
     text-align: center;

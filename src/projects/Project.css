@@ -104,11 +104,13 @@
 }
 
 /* responssive*/
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
+  .project-item-list {
+    margin-top: 12rem;
+  }
   .project-item-container {
     flex-direction: column;
     align-items: center;
     gap: 1.5em;
-    margin-top: 2rem;
   }
 }
