@@ -135,7 +135,7 @@ h3 {
 }
 
 /*responssive*/
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 540px) {
   .about-main-content {
     margin-top: 14rem;
   }

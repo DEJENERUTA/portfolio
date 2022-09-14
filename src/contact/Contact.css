@@ -94,7 +94,7 @@
   color: #fff;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 540px) {
   .contact-form {
     margin-top: 10rem;
   }
