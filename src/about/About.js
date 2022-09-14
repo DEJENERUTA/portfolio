@@ -27,16 +27,16 @@ const About = () => {
           </h3>
           <p className="about-desc">
             "Motivated recent web development graduate with experience building
-            unbreakable and elegant websites looking for an opportunity to grow
+            unbreakable and elegant website looking for an opportunity to grow
             front-end development skills in an innovative environment."
           </p>
           <p className="about-desc">
-            Hello! My name is Dejene and I enjoy creating things that live on
-            the internet. My interest in web development started back in 2019
-            when I decided to change my career taught me a lot about HTML & CSS!
-            I'm currently studying as a Front-end web developer and I'm always
-            interested in a challenge. Reach out to me if you have any questions
-            my email dejenedaba269@gmail.com to connect!
+            Hello! My name is Dejene Daba, and I enjoy creating things that live
+            on the internet. My interest in web development started in 2019 when
+            I decided to change my career taught me a lot about HTML & CSS! I'm
+            currently studying as a Front-end web developer, and I'm always
+            interested in a challenge. Reach out to me if you have any
+            questions, my email is dejenedaba269@gmail.com to connect
           </p>
         </div>
       </div>
