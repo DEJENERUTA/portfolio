@@ -86,8 +86,6 @@ nav ul {
 .burger-menu.open .line-3 {
   transform: translateY(0) rotate(135deg);
 }
-
-/*when the burger menu clicked, give it black background to site navigation and animate to left*/
 .site-menu.open {
   background: black;
   animation: slideIn 0.5s ease-in-out;

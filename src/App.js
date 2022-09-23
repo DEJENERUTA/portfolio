@@ -46,7 +46,6 @@ const App = () => {
               <BsTwitter />
               Twitter
             </a>
-            {/* <a className="gap" href="Dejene's_cv.pdf"> */}
             <a className="gap" href="/assets/Dejene's_cv.pdf">
               <AiFillFileText />
               Resumé

@@ -33,7 +33,6 @@
   margin-top: 1rem;
   line-height: 1;
 }
-/* when hover project description the text should have some annimations*/
 .project-description:hover {
   animation: fadeIn 1.5s;
   animation-fill-mode: forwards;
@@ -46,7 +45,6 @@
     opacity: 1;
   }
 }
-
 .project-description p {
   font-size: 1.2rem;
   line-height: 1.5;
@@ -56,7 +54,6 @@
   width: 350px;
   border-radius: 30px;
 }
-/*when hover the project image rotate the image*/
 .project-image:hover img {
   animation: rotate 1.5s;
   animation-fill-mode: forwards;
