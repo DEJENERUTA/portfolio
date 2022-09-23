@@ -54,7 +54,6 @@
 .project-image img {
   object-fit: cover;
   width: 350px;
-  height: 330px;
   border-radius: 30px;
 }
 /*when hover the project image rotate the image*/
@@ -110,5 +109,8 @@
     align-items: center;
     gap: 1.5em;
     margin-top: 2rem;
+  }
+  .project-image img {
+    margin-top: 4rem;
   }
 }

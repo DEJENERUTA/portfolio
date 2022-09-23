@@ -5,7 +5,7 @@
 }
 
 .about {
-  margin-top: 20px;
+  margin-top: 4rem;
 }
 .about h2,
 h3 {
@@ -92,7 +92,7 @@ h3 {
 .about-text {
   width: 480px;
 }
-/*the skills icons has to rotate fully */
+
 .about-skills {
   overflow: hidden;
 }
