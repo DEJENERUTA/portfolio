@@ -2,7 +2,7 @@
   height: 100%;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 80px 1fr 160px;
+  grid-template-rows: 80px 1fr auto;
 }
 .app-header {
   background-color: var(--color-primary);
@@ -15,12 +15,18 @@
   background-color: var(--color-primary);
   padding: 1em 0;
 }
-.app-footer-links {
+.app-footer-links ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 2em;
   border-top: 2px solid #ffff00;
+  list-style: none;
+}
+@media (max-width: 640px) {
+  .app-footer-links ul {
+    flex-direction: column;
+  }
 }
 .app-footer-links a {
   color: var(--color-accent);

@@ -8,7 +8,7 @@ import { BsGithub } from "react-icons/bs";
 
 const About = () => {
   return (
-    <div className="about-main-content">
+    <div className="about-wrapper">
       <div className="about-content">
         <div className="about-pic-wrapper">
           <div className="about-pic-border"></div>

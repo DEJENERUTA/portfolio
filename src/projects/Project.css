@@ -100,7 +100,7 @@
 }
 
 /* responssive*/
-@media screen and (max-width: 540px) {
+@media (max-width: 640px) {
   .project-item-list {
     margin-top: 12rem;
   }

@@ -1,10 +1,17 @@
-import { Link } from "react-router-dom";
+import { useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
 import { useState } from "react";
 import classnames from "classnames";
+
 import "./Header.css";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const { pathname } = useLocation();
+  useEffect(() => {
+    setIsMenuOpen(false);
+  }, [pathname]);
+  console.log(pathname);
   return (
     <div className="site-header">
       <div className="site-logo">
@@ -44,6 +51,9 @@ const Header = () => {
             </li>
             <li>
               <Link to="/contact">Contact</Link>
+            </li>
+            <li>
+              <button onClick={() => setIsMenuOpen(false)}>Close menu</button>
             </li>
           </ul>
         </nav>

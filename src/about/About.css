@@ -1,7 +1,6 @@
-.about-main-content {
-  width: 100%;
-  height: 100%;
-  margin-top: 4rem;
+.about-wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .about {
@@ -21,7 +20,8 @@ h3 {
   }
 }
 .about-content {
-  width: 100%;
+  max-width: 1370px;
+  margin: 0 auto;
   display: flex;
   gap: 2em;
   align-items: flex-start;
@@ -36,6 +36,7 @@ h3 {
   position: absolute;
   width: 100%;
   height: 100%;
+  margin-top: 2em;
 }
 .about-pic-border {
   position: absolute;
@@ -135,17 +136,16 @@ h3 {
 }
 
 /*responssive*/
-@media screen and (max-width: 540px) {
-  .about-main-content {
+@media (max-width: 640px) {
+  /* .about-main-content {
     margin-top: 14rem;
-  }
+  } */
   .about-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 1em;
-    margin-top: 10rem;
   }
   .about,
   .D {
