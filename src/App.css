@@ -7,6 +7,10 @@
 .app-header {
   background-color: var(--color-primary);
 }
+.app-main-inner-wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
 .app-main {
   background-color: white;
   padding-block: 2em;

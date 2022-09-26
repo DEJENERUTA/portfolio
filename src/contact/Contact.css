@@ -2,7 +2,7 @@
   text-align: center;
 }
 .contact-form {
-  width: 50%;
+  max-width: 500px;
   margin: 0 auto;
   align-items: center;
   justify-content: center;

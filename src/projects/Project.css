@@ -45,6 +45,9 @@
     opacity: 1;
   }
 }
+.desc-txt {
+  color: red;
+}
 .project-description p {
   font-size: 1.2rem;
   line-height: 1.5;
@@ -69,7 +72,6 @@
 .content {
   display: flex;
   flex-direction: column;
-  width: 50%;
 }
 .project-item {
   list-style: none;
@@ -91,12 +93,22 @@
   font-weight: bold;
 }
 .source-underline {
-  text-decoration: underline;
+  /*  text-decoration: underline;
+  color: var(--color-links); */
+  border: 2px solid var(--color-decoration);
   color: var(--color-links);
+  padding: 0.5rem;
+  background-color: var(--color-primary);
+  text-decoration: none;
 }
 .demo-underline {
-  text-decoration: underline;
+  /* text-decoration: underline;
+  color: var(--color-links); */
+  border: 2px solid var(--color-decoration);
   color: var(--color-links);
+  padding: 0.5rem;
+  background-color: var(--color-primary);
+  text-decoration: none;
 }
 
 /* responssive*/
@@ -111,5 +123,12 @@
   }
   .project-image img {
     margin-top: 4rem;
+  }
+  .project-description {
+    /* the text must be centered and the width must be 100% so that it will cover the whole screen */
+    text-align: center;
+    width: 100%;
+    padding: 1rem;
+    font-size: 0.8rem;
   }
 }
