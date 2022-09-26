@@ -34,7 +34,7 @@ const projectArray = [
       "Zula restaurant website is build in reactjs as a front end and we used wordpress as a backend, it is gropu project where I mainly did the front end part, the website is used to order food, book a table and many more.",
     technologies: "React.js, Wordpress, tailwindcss",
     githubUrl: "https://github.com/orindholt/zula-restaurant",
-    liveDemoUrl: "https://zula-restaurant.vercel.app/",
+    liveDemoUrl: "https://monumental-salamander-cc3de4.netlify.app/",
     image: "/assets/zula-pic.png",
   },
 ];
