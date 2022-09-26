@@ -54,7 +54,12 @@ const App = () => {
                 </a>
               </li>
               <li>
-                <a className="gap" href="/assets/Resume.pdf">
+                <a
+                  className="gap"
+                  href="/assets/Resume.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <AiFillFileText />
                   Resumé
                 </a>
