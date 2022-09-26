@@ -102,7 +102,7 @@
 /* responssive*/
 @media (max-width: 640px) {
   .project-item-list {
-    margin-top: 12rem;
+    margin-top: 2rem;
   }
   .project-item-container {
     flex-direction: column;

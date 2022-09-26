@@ -52,9 +52,9 @@ const Header = () => {
             <li>
               <Link to="/contact">Contact</Link>
             </li>
-            <li>
+            {/*  <li>
               <button onClick={() => setIsMenuOpen(false)}>Close menu</button>
-            </li>
+            </li> */}
           </ul>
         </nav>
         <button

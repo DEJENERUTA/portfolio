@@ -128,4 +128,7 @@ nav ul {
     align-items: center;
     justify-content: center;
   }
+  .burger-menu {
+    z-index: 100;
+  }
 }

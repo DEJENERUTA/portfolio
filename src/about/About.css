@@ -91,7 +91,8 @@ h3 {
   }
 }
 .about-text {
-  width: 480px;
+  font-size: 1rem;
+  padding: 0 1em;
 }
 
 .about-skills {
@@ -105,7 +106,6 @@ h3 {
   font-size: 1.5em;
 }
 .skills-content {
-  width: 750px;
   font-size: 2em;
   display: flex;
   align-items: center;
