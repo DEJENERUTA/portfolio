@@ -54,7 +54,7 @@ const App = () => {
                 </a>
               </li>
               <li>
-                <a className="gap" href="/assets/Dejene's_cv.pdf">
+                <a className="gap" href="/assets/Resume.pdf">
                   <AiFillFileText />
                   Resumé
                 </a>
