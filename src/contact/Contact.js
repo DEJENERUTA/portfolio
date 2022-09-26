@@ -135,7 +135,7 @@ const Contact = () => {
           />
         </div>
         <button className="btn">
-          {isSend ? "Message was send" : <FiSend className="btn-icon" />}
+          {isSend ? "Message was sent" : <FiSend className="btn-icon" />}
         </button>
       </form>
     </div>

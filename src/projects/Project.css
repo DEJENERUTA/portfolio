@@ -100,6 +100,7 @@
   padding: 0.5rem;
   background-color: var(--color-primary);
   text-decoration: none;
+  border-radius: 10px;
 }
 .demo-underline {
   /* text-decoration: underline;
@@ -109,6 +110,7 @@
   padding: 0.5rem;
   background-color: var(--color-primary);
   text-decoration: none;
+  border-radius: 10px;
 }
 
 /* responssive*/
@@ -124,8 +126,10 @@
   .project-image img {
     margin-top: 4rem;
   }
+  .project-name {
+    text-align: center;
+  }
   .project-description {
-    /* the text must be centered and the width must be 100% so that it will cover the whole screen */
     text-align: center;
     width: 100%;
     padding: 1rem;

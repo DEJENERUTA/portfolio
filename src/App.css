@@ -14,6 +14,7 @@
 .app-main {
   background-color: white;
   padding-block: 2em;
+  padding: 15px;
 }
 .app-footer {
   background-color: var(--color-primary);
