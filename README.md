@@ -6,8 +6,9 @@ Jeg har valgt React Framework til at bygge min applikation, fordi React har en g
 # Css: 
 Jeg beslutter mig for at bruge css til at style mit projekt. da mit projekt ikke er stort, er det bedre at bruge css i stedet for Frameworks som TailwindCss. det gør også min produktivitet hurtig. Brug af css gør det nemt at navigere gennem mine filer, fordi css er adskilt fra min HTML-fil.
 
-#Pakker:
-##React-hook-form
+# Pakker:
+
+## React-hook-form
 
 
 
