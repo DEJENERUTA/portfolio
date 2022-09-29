@@ -20,6 +20,7 @@ React Hook Form er et bibliotek, der hjælper mig med at validere formularer i R
 React Router Dom bruges til at bygge enkeltsides applikationer, dvs. applikationer, der har mange sider eller komponenter, men siden bliver aldrig opdateret i stedet for, at indholdet hentes dynamisk baseret på URL'en. Denne proces kaldes Routing, og den er muliggjort ved hjælp af React Router Dom.
 
 ### Nodmailer:
+Nodemailer er en Node. js-modul, der giver dig mulighed for nemt at sende e-mails fra din server. Uanset om du vil kommunikere med dine brugere eller bare give dig selv besked, når noget er gået galt. Hvis du har en Gmail-konto, kan du bruge den konto med nodemailer direkte. Der er dog flere ulemper ved at gøre det. For det første er der en grænse for udgående e-mail: 500 pr. dag, og hver modtager tæller som 1 udgående e-mail.
 
 ### TailwindCss:
 
