@@ -12,12 +12,17 @@ Jeg beslutter mig for at bruge css til at style mit projekt. da mit projekt ikke
 # Pakker:
 
 ## React-hook-form:
+React Hook Form er et bibliotek, der hjælper mig med at validere formularer i React. Det er et minimalt bibliotek uden andre afhængigheder, mens det er effektivt og ligetil at bruge, hvilket kræver, at udviklere skriver færre linjer kode end andre formbiblioteker.
 
 ## Yup:
 
 ## React-router-dom:
 
 ## Nodmailer:
+
+## TailwindCss:
+
+Tailwind CSS gør det hurtigere at skrive og vedligeholde koden til din applikation. Ved at bruge denne utility-first framework behøver du ikke skrive tilpasset CSS for at style din applikation. I stedet kan du bruge hjælpeklasser til at kontrollere udfyldning, margen, farve, skrifttype, skygge og mere af din applikation.
 
 
 
