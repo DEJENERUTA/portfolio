@@ -15,6 +15,7 @@ Jeg beslutter mig for at bruge css til at style mit projekt. da mit projekt ikke
 React Hook Form er et bibliotek, der hjælper mig med at validere formularer i React. Det er et minimalt bibliotek uden andre afhængigheder, mens det er effektivt og ligetil at bruge, hvilket kræver, at udviklere skriver færre linjer kode end andre formbiblioteker.
 
 ### Yup:
+Yup er en JavaScript-skemabygger til værdiparsing og validering. Definer et skema, transformer en værdi for at matche, valider formen på en eksisterende værdi eller begge dele. Yup skemaer er ekstremt udtryksfulde og tillader modellering af komplekse, indbyrdes afhængige valideringer eller værditransformationer
 
 ### React-router-dom:
 React Router Dom bruges til at bygge enkeltsides applikationer, dvs. applikationer, der har mange sider eller komponenter, men siden bliver aldrig opdateret i stedet for, at indholdet hentes dynamisk baseret på URL'en. Denne proces kaldes Routing, og den er muliggjort ved hjælp af React Router Dom.
