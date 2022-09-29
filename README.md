@@ -17,6 +17,7 @@ React Hook Form er et bibliotek, der hjælper mig med at validere formularer i R
 ## Yup:
 
 ## React-router-dom:
+React Router Dom bruges til at bygge enkeltsides applikationer, dvs. applikationer, der har mange sider eller komponenter, men siden bliver aldrig opdateret i stedet for, at indholdet hentes dynamisk baseret på URL'en. Denne proces kaldes Routing, og den er muliggjort ved hjælp af React Router Dom.
 
 ## Nodmailer:
 
