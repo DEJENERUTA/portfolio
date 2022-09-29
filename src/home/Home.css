@@ -67,7 +67,6 @@ h2 {
   margin-bottom: 1em;
   max-width: 580px;
 }
-
 /* responssive*/
 @media (max-width: 640px) {
   .home-content {

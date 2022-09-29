@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { useState } from "react";
 import classnames from "classnames";
+import LightmodeDarkmode from "../components/LightmodeDarkmode";
 
 import "./Header.css";
 
@@ -37,6 +38,9 @@ const Header = () => {
           </svg>
         </Link>
       </div>
+      <div className="darklightmode">
+        <LightmodeDarkmode />
+      </div>
       <div className="site-navigation">
         <nav className={classnames("site-menu", { open: isMenuOpen })}>
           <ul>
@@ -54,6 +58,9 @@ const Header = () => {
             </li>
             {/*  <li>
               <button onClick={() => setIsMenuOpen(false)}>Close menu</button>
+            </li> */}
+            {/*  <li>
+              <LightmodeDarkmode />
             </li> */}
           </ul>
         </nav>

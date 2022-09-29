@@ -91,6 +91,18 @@
   padding: 1rem;
 }
 
+/*lightmode and darkmode*/
+/* when the app is in darkmode the contact form will have red background and white text
+when the app is in lightmode the contact form will have white background and black text */
+.darkmode .contact-form {
+  background-color: #fff;
+  color: #000;
+}
+.darkmode .contact-form input[type="text"] {
+  background-color: #fff;
+  color: #000;
+}
+
 @media screen and (max-width: 540px) {
   .contact-form {
     margin-top: 2rem;

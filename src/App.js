@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import Header from "./header/Header";
@@ -11,8 +12,9 @@ import { BsTwitter, BsLinkedin } from "react-icons/bs";
 import { AiOutlineGithub, AiFillFileText } from "react-icons/ai";
 
 const App = () => {
+  const [theme, setTheme] = useState("dark");
   return (
-    <div className="app">
+    <div className="app" id={theme}>
       <header className="app-header">
         <div className="app-header-inner-wrapper">
           <Header />
