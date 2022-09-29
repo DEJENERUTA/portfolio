@@ -3,7 +3,8 @@
 # React: 
 Jeg har valgt React Framework til at bygge min applikation, fordi React har en genbrugelige komponenter. React har komponenter genanvendelighed, det giver udviklere mulighed for at bruge en komponent flere gange i stedet for at oprette flere komponenter. React er også let at forstå sammenlignet med andre rammer. Jeg kan virkelig godt lide react-udviklerværktøjer, fordi React-værktøjer hjælper mig med nemt at opdage mine barn- og forældrekomponente.
 
-
+# Css: 
+Jeg beslutter mig for at bruge css til at style mit projekt. da mit projekt ikke er stort, er det bedre at bruge css i stedet for rammer som medvind. det gør også min produktivitet hurtig. Brug af css gør det nemt at navigere gennem mine filer, fordi css er adskilt fra min HTML-fil
 
 
 
