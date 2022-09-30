@@ -28,8 +28,11 @@ Nodemailer er en Node. js-modul, der giver dig mulighed for nemt at sende e-mail
 Tailwind CSS gør det hurtigere at skrive og vedligeholde koden til din applikation. Ved at bruge denne utility-first framework behøver du ikke skrive tilpasset CSS for at style din applikation. I stedet kan du bruge hjælpeklasser til at kontrollere udfyldning, margen, farve, skrifttype, skygge og mere af din applikation. den mest vellidte utility-first CSS-Framework til hurtig UI-oprettelse er Tailwind CSS. Det er nemt at tilpasse, tilpasser sig til enhver design, og byggestørrelsen er lille." Tailwind gør bare mit liv nemmere. Det er stadig CSS og du bruger flex grid osv. men bare hurtigere at skrive og vedligeholde.
 
 ### Github issues
-
 <img width="1250" alt="Github issues" src="https://user-images.githubusercontent.com/45858936/193211238-f5cbe9de-c458-4d13-94d0-f7719d88393d.png">
+
+### Github Kanban Board
+<img width="1414" alt="Github Kanban Board" src="https://user-images.githubusercontent.com/45858936/193211491-70c68fa7-6925-4e66-9dde-656322de996b.png">
+
 
 ### email sending code Example
 
