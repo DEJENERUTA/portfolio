@@ -26,118 +26,32 @@ Nodemailer er en Node. js-modul, der giver dig mulighed for nemt at sende e-mail
 ### TailwindCss:
 
 Tailwind CSS gør det hurtigere at skrive og vedligeholde koden til din applikation. Ved at bruge denne utility-first framework behøver du ikke skrive tilpasset CSS for at style din applikation. I stedet kan du bruge hjælpeklasser til at kontrollere udfyldning, margen, farve, skrifttype, skygge og mere af din applikation. den mest vellidte utility-first CSS-Framework til hurtig UI-oprettelse er Tailwind CSS. Det er nemt at tilpasse, tilpasser sig til enhver design, og byggestørrelsen er lille." Tailwind gør bare mit liv nemmere. Det er stadig CSS og du bruger flex grid osv. men bare hurtigere at skrive og vedligeholde.
+
+### email sending code Example
+
 ```jsx
-const projectArray = [
-  {
-    name: "THE GREEK ISLANDS",
-    description:
-      "A website that provides information about the Greek islands. through the website the user can see some images of the Islands and can read about it. I learnt how to make read more and read less through the project and I also learnt how to change the images by clicking right and left arrows.",
-    technologies: "Html, Css, Javascript Git and Github",
-    githubUrl: "https://github.com/DEJENERUTA/next-greekilands-project",
-    liveDemoUrl: " https://dejeneruta.github.io/next-greekilands-project/",
-    image: "/assets/greek-island-project.png",
-  },
-  {
-    name: "TRAINER APP",
-    description:
-      "A trainer app is a web application project  that used for fitness center. the app will help the user to see trainers, available classes, and a form to login and sign up for classes.  in this project I used the react-hooks library to create a state management system. I also used the react-router-dom library to navigate between pages. in this project I learnt fetching data from an API and, learn a lot about props and state.",
-    technologies: "React.Js",
-    githubUrl: "https://github.com/DEJENERUTA/terminsprove",
-    liveDemoUrl: "https://terminsprove.vercel.app/",
-    image: "/assets/pre-exam-project.png",
-  },
-  {
-    name: "NEWS BOX",
-    description:
-      "News box  is a web application that is used to display news from an api. I fetched the new york times api and displayed the news in a list. I learn how to make dark mode and light mode in this project. in this project I learn how to save data in archive, I also learn how to save data in localstorage. the user can save the news in archive and can delete the news from archive. ",
-    technologies: "Html, Css and Javascript, gulp, sass, git and github",
-    githubUrl: "https://github.com/DEJENERUTA/newsbox-DEJENERUTA",
-    liveDemoUrl: "https://newsbox-dejeneruta.vercel.app/",
-    image: "/assets/news-box-project.png",
-  },
-  {
-    name: "ZULA RESTAURANT",
-    description:
-      "Zula restaurant website is build in reactjs as a front end and we used wordpress as a backend, it is gropu project where I mainly did the front end part, the website is used to order food, book a table and many more.",
-    technologies: "React.js, Wordpress, tailwindcss",
-    githubUrl: "https://github.com/orindholt/zula-restaurant",
-    liveDemoUrl: "https://monumental-salamander-cc3de4.netlify.app/",
-    image: "/assets/zula-pic.png",
-  },
-];
+const emailSubmit = async (data) => {
+    console.log(data);
+    setStatus("Sending...");
+    let response = await fetch("http://localhost:5000/contact", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json;charset=utf-8",
+      },
+      body: JSON.stringify(data),
+    });
+    setStatus("Submit");
+    let result = await response.json();
+    alert(result.status);
+    reset();
+    setIsSend(true);
+    setTimeout(() => {
+      setIsSend(false);
+    }, 5000);
+  };
 
 ```
 
 
 
 
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
