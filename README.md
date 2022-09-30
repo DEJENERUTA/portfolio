@@ -37,6 +37,7 @@ Jeg brugte github som mit projektstyringsværktøj, jeg lavede et issue og Githu
 <img width="1414" alt="Github Kanban Board" src="https://user-images.githubusercontent.com/45858936/193211491-70c68fa7-6925-4e66-9dde-656322de996b.png">
 
 ### Deployment
+Vercel er en platform til at implementere de hurtigste React-websteder. Du kan implementere dit websted med nul konfiguration til den bedste frontend-infrastruktur.
 <img width="1310" alt="Deployment" src="https://user-images.githubusercontent.com/45858936/193211957-0a11fbfe-493b-465f-9736-ddbaab8cb637.png">
 
 
