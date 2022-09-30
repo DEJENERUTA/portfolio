@@ -3,7 +3,7 @@
 
 ### React: 
 Jeg har valgt React Bibliotek til at bygge min applikation, fordi React har en genbrugelige komponenter. React har komponenter genanvendelighed, det giver udviklere mulighed for at bruge en komponent flere gange i stedet for at oprette flere komponenter. React er også let at forstå sammenlignet med andre Framework. Jeg kan virkelig godt lide react-udviklerværktøjer, fordi React-værktøjer hjælper mig med nemt at opdage mine barn- og forældrekomponente.
-React har også et stærkt fællesskab, react-eksperter uploader jævnligt[regularly] gratis react tutorials på youtube og skriver dybdegående artikler om react tutorial og blogs på internettet. React har en god QA sites som stackoverflow, så hvis jeg sidder fast, mens jeg bruger react, kan jeg næsten altid få en løsning. React er en meget UI-fokuseret Framework. 
+React har også et stærkt fællesskab, react-eksperter uploader jævnligt[regularly] gratis react tutorials på youtube og skriver dybdegående artikler om react tutorial og blogs på internettet. React har en god QA sites som stackoverflow, så hvis jeg sidder fast, mens jeg bruger react, kan jeg næsten altid få en løsning. React er en meget UI-fokuseret Bibliotek. 
 På grund af React-skabelonen føler jeg, at jeg også sparer en masse tid under produktiviteten
 
 ### Css: 
