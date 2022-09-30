@@ -65,6 +65,14 @@ const emailSubmit = async (data) => {
 
 ```
 
+# Tech-Stack perspektivering:
+Dette projekt kan bygges med Vue,js eller Next.js, men jeg valgte React.js på grund af forskellige årsager
+1. Jeg er meget komfortabel med reactjs end de ovennævnte 2 Frameworks.
+2. Jeg har også mere erfaring med React.js end de andre 2 Frameworks.
+3. React er i øjeblikket populært end de andre 2 Frameworks, så efter min forståelse er React.js det rigtige valg til dette projekt.
+
+# Projekt perspektivering: 
+
 
 
 
