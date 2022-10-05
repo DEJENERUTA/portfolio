@@ -44,28 +44,10 @@ Vercel er en platform til at implementere de hurtigste React-websteder. Du kan i
 <img width="1310" alt="Deployment" src="https://user-images.githubusercontent.com/45858936/193211957-0a11fbfe-493b-465f-9736-ddbaab8cb637.png">
 
 
-### email sending code Example
+### how to navigate to single activity,  code Example
 
 ```jsx
-const emailSubmit = async (data) => {
-    console.log(data);
-    setStatus("Sending...");
-    let response = await fetch("http://localhost:5000/contact", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json;charset=utf-8",
-      },
-      body: JSON.stringify(data),
-    });
-    setStatus("Submit");
-    let result = await response.json();
-    alert(result.status);
-    reset();
-    setIsSend(true);
-    setTimeout(() => {
-      setIsSend(false);
-    }, 5000);
-  };
+Uncaught (in promise) SyntaxError: Unexpected end of JSON input
 
 ```
 
