@@ -47,22 +47,21 @@ Vercel er en platform til at implementere de hurtigste React-websteder. Du kan i
 ### how to navigate to single activity,  code Example
 
 ```jsx
-const ActivityDetails = () => {
-  const { activityId } = useParams();
-  const [activity, setActivity] = useState([]);
-  const [activityItem, setActivityItem] = useState([]);
-  useEffect(() => {
-    fetch(`http://localhost:4000/api/v1/activities/${activityId}`)
-      .then((response) => response.json())
-      .then((data) => setActivity(data));
-  }, [activityId]);
-  console.log(activity);
+const app = express();
+app.use(cors());
+app.use(express.json());
+app.use("/", router);
+app.listen(5000, () => console.log("Server Running"));
 
-  useEffect(() => {
-    fetch(`http://localhost:4000/api/v1/activities/${activityItem?.id}`)
-      .then((response) => response.json())
-      .then((data) => setActivityItem(data.items));
-  }, [activityItem?.id]);
+const contactEmail = nodemailer.createTransport({
+  service: "gmail",
+  auth: {
+    type: "login", // default
+    user: "dejenedaba269@gmail.com",
+    pass: process.env.REACT_APP_EMAIL_PASS,
+  },
+});
+
 ```
 
 # Tech-Stack perspektivering:
