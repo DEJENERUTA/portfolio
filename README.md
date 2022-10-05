@@ -44,7 +44,7 @@ Vercel er en platform til at implementere de hurtigste React-websteder. Du kan i
 <img width="1310" alt="Deployment" src="https://user-images.githubusercontent.com/45858936/193211957-0a11fbfe-493b-465f-9736-ddbaab8cb637.png">
 
 
-### how to navigate to single activity,  code Example
+### nodemailer,  code Example
 
 ```jsx
 const app = express();
