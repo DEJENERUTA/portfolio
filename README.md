@@ -47,8 +47,22 @@ Vercel er en platform til at implementere de hurtigste React-websteder. Du kan i
 ### how to navigate to single activity,  code Example
 
 ```jsx
-Uncaught (in promise) SyntaxError: Unexpected end of JSON input
+const ActivityDetails = () => {
+  const { activityId } = useParams();
+  const [activity, setActivity] = useState([]);
+  const [activityItem, setActivityItem] = useState([]);
+  useEffect(() => {
+    fetch(`http://localhost:4000/api/v1/activities/${activityId}`)
+      .then((response) => response.json())
+      .then((data) => setActivity(data));
+  }, [activityId]);
+  console.log(activity);
 
+  useEffect(() => {
+    fetch(`http://localhost:4000/api/v1/activities/${activityItem?.id}`)
+      .then((response) => response.json())
+      .then((data) => setActivityItem(data.items));
+  }, [activityItem?.id]);
 ```
 
 # Tech-Stack perspektivering:
