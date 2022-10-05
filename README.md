@@ -47,20 +47,25 @@ Vercel er en platform til at implementere de hurtigste React-websteder. Du kan i
 ### nodemailer,  code Example
 
 ```jsx
-const app = express();
-app.use(cors());
-app.use(express.json());
-app.use("/", router);
-app.listen(5000, () => console.log("Server Running"));
-
-const contactEmail = nodemailer.createTransport({
-  service: "gmail",
-  auth: {
-    type: "login", // default
-    user: "dejenedaba269@gmail.com",
-    pass: process.env.REACT_APP_EMAIL_PASS,
-  },
-});
+const emailSubmit = async (data) => {
+    console.log(data);
+    setStatus("Sending...");
+    let response = await fetch("http://localhost:5000/contact", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json;charset=utf-8",
+      },
+      body: JSON.stringify(data),
+    });
+    setStatus("Submit");
+    let result = await response.json();
+    alert(result.status);
+    reset();
+    setIsSend(true);
+    setTimeout(() => {
+      setIsSend(false);
+    }, 5000);
+  };
 
 ```
 
