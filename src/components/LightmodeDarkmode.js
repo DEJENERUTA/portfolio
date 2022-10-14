@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
-import { MdDarkMode } from "react-icons/md";
+/* import React, { useState, useEffect } from "react";
+ import { MdDarkMode } from "react-icons/md"; 
 import { createContext } from "react";
 import ReactSwitch from "react-switch";
 export const ThemeContext = createContext(null);
@@ -20,7 +20,7 @@ const LightmodeDarkmode = () => {
     </ThemeContext.Provider>
   );
 };
-/* const [theme, setTheme] = useState("dark");
+ const [theme, setTheme] = useState("dark");
   const [icon, setIcon] = useState(<MdDarkMode />);
 
   const toggleTheme = () => {
@@ -49,6 +49,7 @@ const LightmodeDarkmode = () => {
       <button onClick={toggleTheme}>{icon}</button>
     </div>
   );
-}; */
+}; 
 
 export default LightmodeDarkmode;
+ */
