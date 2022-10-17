@@ -58,7 +58,7 @@ const App = () => {
               <li>
                 <a
                   className="gap"
-                  href="/assets/Resume.pdf"
+                  href="/assets/Dejene's_cv.pdf"
                   target="_blank"
                   rel="noreferrer"
                 >
