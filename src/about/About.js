@@ -34,7 +34,7 @@ const About = () => {
             Hello! My name is Dejene Daba, and I enjoy creating things that live
             on the internet. My interest in web development started in 2019 when
             I decided to change my career taught me a lot about HTML & CSS! I'm
-            currently studying as a Front-end web developer, and I'm always
+            currently looking a job as a Front-end web developer, and I'm always
             interested in a challenge. Reach out to me if you have any
             questions, my email is dejenedaba269@gmail.com to connect
           </p>
